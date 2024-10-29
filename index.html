@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karácsonyt Házhoz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Karácsonyt Házhoz Logó" id="logo">
+        <h1>Karácsonyt Házhoz</h1>
+        <p>Házhoz szállítjuk karácsonyfáját Veszprém megyében!</p>
+    </header>
+    <section id="services">
+        <h2>Szolgáltatások</h2>
+        <p>Rendeljen friss, környezetbarát karácsonyfát.</p>
+    </section>
+    <section id="order">
+        <h2>Rendelés</h2>
+        <form id="order-form">
+            <label for="tree-type">Fenyő típusa:</label>
+            <select id="tree-type">
+                <option value="luc">Lucfenyő</option>
+                <option value="ezüst">Ezüstfenyő</option>
+                <option value="nordmann">Nordmann fenyő</option>
+            </select>
+            <label for="size">Méret (cm):</label>
+            <input type="number" id="size" min="100" max="300" required>
+            <button type="submit">Rendelés leadása</button>
+        </form>
+    </section>
+    <script src="script.js"></script> <!-- JavaScript fájl betöltése -->
+</body>
+</html>
